@@ -54,4 +54,11 @@ python evaluation.py  --input INPUT_JSON_PATH
 We gratefully acknowledge that our evaluation code is modified from the official implementation of [MMAU](https://github.com/Sakshi113/MMAU). 
 
 ## Citation
-Coming Soon
+```
+@article{ma2025mmar,
+  title={MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix},
+  author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},
+  journal={arXiv preprint arXiv:2505.13032},
+  year={2025}
+}
+```
