@@ -1,4 +1,35 @@
 
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=it">Itapano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ddlBoJack&project=MMAR&lang=id">Bahasa Indonesia</a>
+      </div>
+    </div>
+  </details>
+</div>
+
+
 # MMAR: A Challenging Benchmark for Deep Reasoning in Speech, Audio, Music, and Their Mix
 [**📖 arXiv**](https://arxiv.org/abs/2505.13032) | [**🎬 MMAR Demo Video**](https://www.youtube.com/watch?v=Dab13opIGqU) | [**🛠️ GitHub Code**](https://github.com/ddlBoJack/MMAR) | [**🔊 MMAR Audio Download (HuggingFace)**](https://huggingface.co/datasets/BoJack/MMAR)
                                           
