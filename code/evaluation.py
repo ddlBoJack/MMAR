@@ -40,8 +40,12 @@ if __name__ == "__main__":
     
     args = parser.parse_args()  
     
-    with open(args.input, 'r') as f:
-        input_data = json.load(f)
+    if args.input.endswith('json'):
+        with open(args.input, 'r') as f:
+            input_data = json.load(f)
+    elif args.input.endswith('jsonl'):
+        with open(args.input, 'r') as f:
+            input_data = [json.loads(line.strip()) for line in f]
 
     corr, total = 0, 0
 
@@ -52,7 +56,7 @@ if __name__ == "__main__":
     # Here is the new dict for sub-category metrics
     subcat_metrics = {}
 
-    output_key = 'model_prediction' # The key that contains model output
+    output_key = 'answer_prediction' # The key that contains model output
     no_pred_count = 0
     matched_outputs = []
     new_data = []
