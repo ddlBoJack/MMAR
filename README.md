@@ -4,7 +4,8 @@
 <p align="center"><img src="assets/logo.png" alt="MMAR Benchmark Logo" width="300"/></p>
 
 ## News
-- [Feb. 2026] We released the **MMAR-Rubrics**, an updated version of the MMAR benchmark with a novel instance-level rubric-based evaluation protocol. 
+- [Feb. 2026] Final results of the Interspeech 2026 Audio Reasoning Challenge are now available on the [leaderboard page](https://audio-reasoning-challenge.github.io/leaderboard)! Check out our [challenge report](https://arxiv.org/abs/2602.14224) for a detailed analysis and insights.
+- [Feb. 2026] We released the **MMAR-Rubrics**, an updated version of the MMAR benchmark with a novel instance-level rubric-based protocol for reasoning process quality evaluation. Check out the [evaluation script](code/evaluation_rubrics.py) for more details. 
 - [Dec. 2025] We organized **[the Interspeech 2026 Audio Reasoning Challenge](https://audio-reasoning-challenge.github.io/)**, with both [Single Model Track](https://www.codabench.org/competitions/12460/) and [Agent Track](https://www.codabench.org/competitions/12459/), to advance the research on audio reasoning.
 
 ## Overview of MMAR
@@ -127,5 +128,12 @@ We gratefully acknowledge that our evaluation code is modified from the official
   author={Ma, Ziyang and Ma, Yinghao and Zhu, Yanqiao and Yang, Chen and Chao, Yi-Wen and Xu, Ruiyang and others},
   journal={Proc. NeurIPS},
   year={2025}
+}
+
+@article{ma2025arc,
+  title={The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents},
+  author={Ma, Ziyang and Xu, Ruiyang and Ma, Yinghao and Yang, Chao-Han Huck and Li, Bohan and Kim, Jaeyeon and Xu, Jin and Li, Jinyu and Busso, Carlos and Yu, Kai and Chng, Eng Siong and Chen, Xie},
+  journal={arXiv preprint arXiv:2602.14224},
+  year={2026}
 }
 ```
