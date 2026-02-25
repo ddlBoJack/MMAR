@@ -109,7 +109,7 @@ Evaluation Protocol:
 1. **Answer Correctness**: If the `answer_prediction` is **incorrect**, the score is **0**.
 2. **Reasoning Quality**: If the `answer_prediction` is **correct**, an LLM-as-a-judge evaluates the `thinking_prediction` on a scale of **0.2 to 1.0** (in 0.2 increments).
 3. **Stability Mechanism**: 
-    - The rubrics are designed to be **instance-level**, rather than system-level, to provide fine-grained feedback on the reasoning process for each question. The rubrics are stored in the [rubrics.json](code/rubrics.json) file with ``rubric`` as keys.
+    - The rubrics are designed to be **instance-level**, rather than system-level, to provide fine-grained feedback on the reasoning process for each question. The rubrics are stored in the [MMAR-meta.jsonl](MMAR-meta.jsonl) file with ``rubric`` as keys.
     - To account for variance, each submission is calculated based on **5 independent evaluation runs**. The final score for each metric will be **the mean of the 3 middle runs**, effectively discarding the highest and lowest results. 
 
 To run the script:
